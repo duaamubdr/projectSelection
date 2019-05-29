@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">project</string>
+    <string name="about">The Final Year Project Selection System designed for the student of Information
+        Engineering College, to browse and choose their desired projects. Selecting the desired one from
+        several projects. Through this system, final year students can select their project titles based
+        on certain criteria and preferences. Project Selection System on Android Mobile is an application
+        used for making a selection process in an easy way. In this application students can view the projects and
+        choose their desired projects and also the supervisor can upload their projects from anywhere using their
+        own mobiles. The main purpose of this application is to make a project selection process by using smart phones.
+        In manual method the process has several problems. It can be summed up in the following:
+Time consuming , Effort consuming and Errors in manual method.
+</string>
+</resources>

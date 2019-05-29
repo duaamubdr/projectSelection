@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".briefActivity">
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="~~Project details~~"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:layout_margin="10dp"/>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-Project ID : "
+        android:textColor="@android:color/holo_red_dark"
+        android:textAppearance="?android:textAppearanceLarge"
+ />
+    <TextView
+        android:id="@+id/project_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textColor="@android:color/black"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+</LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-Supervisor Name : "
+        android:textColor="@android:color/holo_red_dark"
+        android:textAppearance="?android:textAppearanceLarge"
+        />
+
+    <TextView
+        android:id="@+id/supervisorN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="duaa mubdr"
+        android:textColor="@android:color/black"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-Project Name : "
+            android:textColor="@android:color/holo_red_dark"
+            android:textAppearance="?android:textAppearanceLarge"
+            />
+        <TextView
+            android:id="@+id/projectN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="duaa mubdr"
+            android:paddingLeft="5dp"
+            android:textColor="@android:color/black"
+            android:paddingTop="5dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-Brief about the project :"
+            android:textColor="@android:color/holo_red_dark"
+            android:textAppearance="?android:textAppearanceLarge"
+            />
+
+
+        <TextView
+            android:id="@+id/brief"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="brief"
+            android:paddingLeft="5dp"
+            android:textColor="@android:color/black"
+            android:paddingTop="5dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" ~~Welcome Admin~~ "
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"/>
+
+
+        <Button
+            android:id="@+id/add_student"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="add user"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/supervisor"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="add project"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_gravity="center_horizontal"
+        />
+    <Button
+        android:id="@+id/admin"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="the result"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_gravity="center_horizontal"
+        />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

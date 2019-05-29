@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="264dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo" />
+
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:onClick="userLogin"
+            android:shadowColor="@android:color/transparent"
+            android:text="User login" />
+
+
+        <Button
+            android:id="@+id/help"
+            android:layout_width="175dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:onClick="about"
+            android:shadowColor="@android:color/transparent"
+            android:text="help" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
